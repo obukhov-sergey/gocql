@@ -2,8 +2,9 @@ package gocql
 
 import (
 	"bytes"
-	"code.google.com/p/snappy-go/snappy"
 	"testing"
+
+	"github.com/golang/snappy"
 )
 
 func TestSnappyCompressor(t *testing.T) {
